@@ -1,4 +1,24 @@
-remote: origin
-chart-dirs:
-  - charts
-validate-maintainers: false
+apiVersion: v1
+entries:
+  logging-operator:
+  - apiVersion: v1
+    appVersion: 3.14.2
+    created: "2021-09-14T17:49:41.290401+02:00"
+    description: A Helm chart to install Banzai Cloud logging-operator
+    digest: 27680a05ad7bee21c7e42c7c6c6b3631e07202cc0b929db7d06ab93633d80545
+    name: logging-operator
+    urls:
+    - logging-operator-3.14.2.tgz
+    version: 3.14.2
+  logging-operator-logging:
+  - apiVersion: v1
+    appVersion: 3.14.2
+    created: "2021-09-14T17:49:41.290978+02:00"
+    description: A Helm chart to configure logging resource for the Logging operator
+    digest: e159df241f1c58cd8ec801367ef722e1330ae1cf635fd44b7a62f7741309d0d7
+    icon: https://raw.githubusercontent.com/banzaicloud/logging-operator/master/docs/img/icon.png
+    name: logging-operator-logging
+    urls:
+    - logging-operator-logging-3.14.2.tgz
+    version: 3.14.2
+generated: "2021-09-14T17:49:41.278167+02:00"
